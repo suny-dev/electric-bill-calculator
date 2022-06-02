@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electric Bill Calculator | Made by Sunny</title>
+    <title>Electric Bill Calculator | Made by Suny Shaikh</title>
     <link rel="shortcut icon" href="favicon-calculator.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="bg-primary py-2 mb-5 position-absolute top-0 start-0 position-fixed w-100">
-        <p class="px-5 text-light h5 text-center">Electric Bill Calculator</p>
+    <header class="bg-primary py-2 mb-5 position-absolute top-0 start-0 position-fixed w-100 text-center">
+        <span class="px-5 text-light h5">Electric Bill Calculator</span>
     </header>
     <div class="container mt-5 pt-4">
        <div class="hstack gap-3 mt-3">
@@ -22,7 +22,7 @@
        </div>
 
         <div class="container my-3 border border-primary border-1 px-5 py-4 w-100" id="invoice">
-            <h3 class="display-4 mb-4 text-primary"> Electric Bill Invoice </h3>
+            <h3 class="display-4 mb-4"> Electric Bill Invoice </h3>
             <p id="unitNumber"> Unit: 0 </p>
             <p id="netCharge"> Net Charge: 0 Taka </p>
             <p id="demandCharge"> Demand Charge: 60 Taka </p>
@@ -33,7 +33,7 @@
             <p class="copyright w-100 float-right"> &copy; Powered by <a href="https://facebook.com/md.suny.shaikh"> Suny Shaikh </a> </p>
         </div>
 
-        <button class="btn btn-success w-100" id="download" type="button"> Download bill invoice </button>
+        <button type="button" class="btn btn-success w-100" id="download" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top" title="Downloaded!"> Download bill invoice </button>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
