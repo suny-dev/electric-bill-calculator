@@ -1,4 +1,4 @@
-# electric-bill-calculator
+# Electric Bill Calculator
 It's a calculator that can calculate electric bills only. It's calculate electricity bill which is ruled by Bangladesh Polli Biddut. 
 
 ## How can you use this calculator
