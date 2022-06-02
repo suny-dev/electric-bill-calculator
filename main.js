@@ -1,3 +1,6 @@
+const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
 function electricBillCalculator() {
     var unit = document.getElementById("unit")
     var btn = document.getElementById("btn")
