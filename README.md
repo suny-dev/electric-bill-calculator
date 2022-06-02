@@ -1,4 +1,4 @@
-# Electric Bill Calculator
+# [Electric Bill Calculator](https://suny-tad.github.io/electric-bill-calculator/A)
 It's a calculator that can calculate electric bills only. It's calculate electricity bill which is ruled by Bangladesh Polli Biddut. 
 
 ## How can you use this calculator
