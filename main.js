@@ -88,7 +88,7 @@ function electricBillCalculator() {
             filename:     'my-bill-invoice.pdf',
             image:        { type: 'jpeg', quality: 0.98 },
             html2canvas:  { scale: 5 },
-            jsPDF:        { unit: 'in', format: 'A4', orientation: 'portrait' }
+            jsPDF:        { unit: 'in', format: 'Letter', orientation: 'landscape' }
           }
         html2pdf().from(invoice).set(opt).save()
     }
